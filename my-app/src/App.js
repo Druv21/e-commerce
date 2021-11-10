@@ -1,8 +1,8 @@
 import './App.css';
 import './css/Nav.css';
 import './css/Home.css';
-import './css/Products.css';
-import Products from './components/Products'
+// import './css/Products.css';
+//import Products from './components/Products'
 import  Nav from './components/Nav'
 import  Home from './components/Home'
 
@@ -12,7 +12,7 @@ function App() {
      <div className="App">
        <Nav/>
        <Home/>
-       <Products /> 
+       {/* <Products />  */}
      </div>
   )
 }

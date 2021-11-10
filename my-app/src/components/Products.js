@@ -3,6 +3,7 @@ import Prod from './Prod';
 import iphone from '../assets/iphone.png';
 import airpod from '../assets/airpod.png';
 import ipad from '../assets/ipad.png';
+import redmi from '../assets/redmi.png';
 const Products = () => {
     const arr = [
     {
@@ -19,6 +20,11 @@ const Products = () => {
         image: <img src={ipad} alt="Ipad" height={200} width={200} />,
         name: "Ipad",
         price: "Rs.44000"
+    },
+    {
+        image: <img src={redmi} alt="Redmi" height={200} width={200} />,
+        name: "redmi phone",
+        price: "Rs.8000"
     }
     ]
 return(
