@@ -1,0 +1,39 @@
+.navbar{
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+}
+.nav_image{
+    width: 6vw;
+    object-fit: contain;
+    margin: 0 2vw;
+    margin-top: 1.3vw;
+}
+.search{
+    display: flex;
+    flex: 1;
+    height: 1.5vw;
+    padding: 1vw;
+}
+.search_input{
+    font-size: 0.8vw;
+}
+.links{
+    text-align: right;
+    margin-right: 2.5vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.link{
+    /* display: flex;
+    flex-direction: column; */
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: 1.2vw;
+}
