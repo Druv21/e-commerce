@@ -1,5 +1,13 @@
 .sale_image{
-    height: 350px;
-    max-height: 20%;
+    height: 22vw;
     width: 100%;
+    /* mask-image: linear-gradient(to bottom, rgb(0,0,0,0.9), rgb(0,0,0,0));
+    margin-bottom: -80px;  */
+}
+h2{
+    margin-left: 3.2vw;
+    font-size: 2vw;
+}
+.full_home{
+    background: rgb(234, 237, 237);
 }

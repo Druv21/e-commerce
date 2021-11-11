@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Nav() {
     return (
@@ -11,11 +12,21 @@ function Nav() {
 
            <div className="links">
                <div className="link">
+                   <Link to='/orders'>
                    <a href="Orders.js">Your Orders</a>
+                   </Link>
+               </div>
+               <div className="link">
+                   <Link to='/form'>
+                   <a href="Form.js">Sign in</a>
+                   </Link>
                </div>
 
                <div className="link">
-                   <a href="Cart.js">Your Cart</a>
+                   <Link to='/cart'>
+                   {/* <a href="Cart.js">Your Cart</a> */}
+                   <i className="fa fa-shopping-cart"></i>
+                   </Link>
                </div>
            </div>
         </div>
@@ -23,3 +34,12 @@ function Nav() {
 }
 
 export default Nav
+
+// import {Link} from 'react-router-dom';
+
+// function Nav() {
+//     return (
+//         <div className="navbar">
+//             <Link to="/">
+//            <img className="nav_image" src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="logo"/>
+//            </Link>

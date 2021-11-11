@@ -1,5 +1,6 @@
 .navbar{
-    height: 3vw;
+    height: 3.5vw;
+    min-height: 2vw;
     display: flex;
     align-items: center;
     background-color: #131921;
@@ -17,8 +18,12 @@
     height: 1.5vw;
     padding: 1vw;
 }
+
 .search_input{
-    font-size: 0.8vw;
+    font-size: 1vw;
+}
+i{
+    color: white;
 }
 .links{
     text-align: right;
@@ -31,8 +36,6 @@ a{
     color: white;
 }
 .link{
-    /* display: flex;
-    flex-direction: column; */
     margin-left: 1vw;
     margin-right: 1vw;
     font-size: 1.2vw;

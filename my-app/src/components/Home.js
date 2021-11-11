@@ -1,16 +1,19 @@
 import React from 'react'
 import sale from '../assets/sale.png'
-import '../css/Products.css';
-import Products from './Products'
+import '../css/ElectronicProducts.css';
+import ElectronicProducts from './ElectronicProducts';
+import Nav from './Nav'
 
 function Home() {
     return (
         <>
+        <Nav/>
         <div>
            <img className="sale_image" src={sale} alt="sale" />
         </div>
-        <div>
-            <Products/>
+        <div className="full_home">
+              <ElectronicProducts/>
+
         </div>
         </>
     )

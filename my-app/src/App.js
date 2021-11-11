@@ -1,18 +1,24 @@
+import React from 'react';
 import './App.css';
 import './css/Nav.css';
 import './css/Home.css';
-// import './css/Products.css';
-//import Products from './components/Products'
-import  Nav from './components/Nav'
-import  Home from './components/Home'
-
-
+import './css/Cart.css';
+import  Home from './components/Home';
+import Cart from "./components/Cart";
+import Orders from "./components/Orders";
+import Form from "./components/Form";
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 function App() {
   return (
      <div className="App">
-       <Nav/>
-       <Home/>
-       {/* <Products />  */}
+       <BrowserRouter>
+       <Switch>
+         <Route path='/' exact component={Home} />
+         <Route path='/cart' exact component={Cart} />
+         <Route path='/orders' exact component={Orders} />
+         <Route path='/form' exact component={Form} />
+       </Switch>
+       </BrowserRouter>
      </div>
   )
 }
