@@ -3,6 +3,7 @@ import './App.css';
 import './css/Nav.css';
 import './css/Home.css';
 import './css/Cart.css';
+import './css/Form.css';
 import  Home from './components/Home';
 import Cart from "./components/Cart";
 import Orders from "./components/Orders";

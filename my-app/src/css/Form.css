@@ -1,0 +1,30 @@
+.head{
+    background-color: rgb(234, 237, 207);
+    text-align: center;
+    margin-left: 30%;
+    width: 40%;
+}
+h2{
+    padding-top: 2vw;
+}
+.bttn{
+    text-align: center;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+.form{
+    margin-top: 3vw;
+}
+.buttn{
+    background-color: #f0c14b;
+    margin: 1.5vw;
+}
+.align_box{
+    padding-right: 1.2vw;
+}
+.box{
+    padding-bottom: 1.5vw;
+}
+.head{
+    padding-top: 0vw;
+}
